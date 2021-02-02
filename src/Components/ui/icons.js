@@ -3,7 +3,7 @@ import { Link } from "react";
 
 import mcitylogo from "../../Resources/images/logos/manchester_city_logo.png";
 
-const CityLogo = (props) => {
+export const CityLogo = (props) => {
   const template = (
     <div
       className={"img_cover"}
@@ -25,5 +25,3 @@ const CityLogo = (props) => {
     return template;
   }
 };
-
-export default CityLogo;
